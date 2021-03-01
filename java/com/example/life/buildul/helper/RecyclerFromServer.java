@@ -1,0 +1,41 @@
+package com.example.life.buildul.helper;
+
+public class RecyclerFromServer {
+
+    private String title;
+    private String image;
+    private String price;
+
+    public RecyclerFromServer(){
+
+    }
+    public RecyclerFromServer(String title, String image, String price) {
+        this.title = title;
+        this.image = image;
+        this.price = price;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+}
