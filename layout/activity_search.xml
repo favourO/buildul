@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Search">
+
+    <EditText
+        android:id="@+id/text_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/search_items_here"
+        android:background="@drawable/search_curve"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:inputType="text"
+        android:importantForAutofill="no"
+        android:layout_marginEnd="50dp"
+        tools:ignore="UnusedAttribute"
+        android:padding="10dp"/>
+
+    <ImageButton
+        android:id="@+id/search_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_youtube_searched_for_black_24dp"
+        android:background="#fff"
+        android:layout_marginEnd="10dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text_search"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>

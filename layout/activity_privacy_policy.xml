@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPolicy">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textzero"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/terms_and_condition_of_use"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"/>
+
+                    <TextView
+                        android:id="@+id/textone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/introduction"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/textzero"/>
+                    
+                    <TextView
+                        android:id="@+id/texttwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You confirm that you are at least 18 years of age or are accessing the mobile App under supervision of a parent or legal guardian.
+Both parties agree that this store may only be used in accordance with these Terms and Conditions of use. If you do not agree with the Terms and Conditions of Use or do not wish to be bound by them, you agree to refrain from using this store.
+We grant you a non-transferable revocable and non-exclusive license to use this store, accordance with the Terms and Conditions of Use, for such things as: commercial use or use on behalf of any third party is prohibited, except as explicitly permitted by us in advance. These Terms and Conditions of Use specifically prohibit actions such as: accessing our servers or internal computer systems, interfering in any way with the functionally of this store, gathering or altering any underlying software code, infringing and intellectual property rights. This list is non-exhaustive and similar actions are also strictly prohibited.
+Any breach of these Terms and Conditions of Use shall result in the immediate revocation of the license granted in this paragraph without prior notice to you. Should we determine at our sole discretion that you are in breach of any of these conditions, we reserve the right to deny access of this store and its contents and do so without prejudice to any available remedies at law or otherwise.
+Certain services and related features that may be made available on the store may require registration or subscription. Should you choose to register or subscribe for any services or related features, you agree to provide accurate and current information about yourself, and to update such information if there are any changes. Every user of the store is solely responsible for keeping passwords and other account identifiers safe and secure.
+The account owner is entirely responsible for all activities that occur under such password or account. The store shall not be responsible or liable, directly or indirectly, in a way for any kind incurred as a result of, or in connection with, your failure to comply with this section.
+During the registration process you agree to receive promotional emails from the store. You can subsequently opt out of receiving such promotional emails by clicking on the link at the bottom of any promotional email."
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/textone"/>
+
+                    <TextView
+                        android:id="@+id/textthree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/terms_conditon"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/texttwo"/>
+
+                    <TextView
+                        android:id="@+id/textfour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Anything that you submit to the store and/or provide to us, including but not limited to, questions, reviews, comments, and suggestions (collectively, “Submissions”) will become our sole and exclusive property and shall not be returned to you.
+In addition to the rights applicable to any submission, when you post comments or reviews to the store, you also grant to use the name that you submit, in connection with such review, comment, or other content.
+You shall not use a false email address, pretend to be someone other than yourself or otherwise mislead us or third parties as to the origin of any submissions. We may, but shall not be obligate to, remove or edit any Submissions.
+By completing an order or signing up, you agree to receive;
+Emails associated with finalizing your order, which may contain relevant offers from third parties and,
+Emails asking you to review Buildul store and your purchase and Promotional emails SMS and push notifications from Buildul. You may unsubscribe from promotional emails via a link provided in each email. If you would like us to remove you personal information from our database, unsubscribe from emails and/or SMS, please email Customer Service email address."
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/textthree"/>
+
+                    <TextView
+                        android:id="@+id/textfive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/information"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/textfour"/>
+
+                    <TextView
+                        android:id="@+id/textsix"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You accept that the information contained in this store is provided as is, is intended for information purposes only and that it is subject to change without notice. Although we take reasonable steps to ensure the accuracy of the information and we believe when posted, it should not be relied upon and it does not in any way constitute either a representation or a warranty or a guarantee.
+Product representations expressed on this store are of the merchants and are not made by us. Submissions or opinions expressed on this store are those of the individual posting such content and may not reflect our opinions.
+We make no representations as to the merchantability of any products listed on our store, and we hereby disclaim all warranties, whether express or implied, as to the merchantability and/or fitness of the products listed on our store for ay particular purpose. We shall not be held responsible or made liable for any damages or injury which may occur as a result of any error, omission, interruption, deletion, delay in operation or transmission, computer virus, communication failure and defect in the information, content, materials, software, or other services included on or otherwise made available through our store. We understand that certain state laws do not allow limitations on implied warranties or limitation of certain damages, these disclaimers may therefore not apply where these laws are applicable.
+			"           android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/textfive"/>
+
+                    <TextView
+                        android:id="@+id/textseven"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/accessibility_of_store"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/textsix"/>
+
+                    <TextView
+                        android:id="@+id/texteight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Our aim is to ensure accessibility to the store at all times, however we make no representation of that nature and reserve the right to terminate the store at any time and without notice. You accept that service interruption may occur in order to allow for website improvements, scheduled maintenance or may also be due to outside factors beyond our control."                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/textseven"/>
+
+                    <TextView
+                        android:id="@+id/textnine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/links_to_third_party_websites"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/texteight"/>
+
+                    <TextView
+                        android:id="@+id/textten"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="We may include links to third party websites at any time. However, the existence of a link to another website should not be considered as an affiliation or a partnership with a third party or viewed as an endorsement of a particular website unless explicitly stated otherwise.
+In the event the user follows a link to another website, he or she does that at his ir her own risk. We accept no responsibility for any content, including, but not limited to, information, products and services, available on third party websites.
+Creating a link to this website is strictly forbidden without prior written consent. Furthermore, we reserve the right to revoke our consent without notice or justification."
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/textnine"/>
+
+                    <TextView
+                        android:id="@+id/texteleven"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/data_protection"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/textten"/>
+
+                    <TextView
+                        android:id="@+id/texttwelve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Any personal information collected in relation to the use of this store will be held and used in accordant with our Privacy Policy, which is available on our store."
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/texteleven"/>
+
+                    <TextView
+                        android:id="@+id/text13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/indemnity"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/texttwelve"/>
+
+                    <TextView
+                        android:id="@+id/text14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You agree to indemnify and hold us, our affiliates, officers, directors, agents and/or employees, as the case may be, free from any claim or demand, including reasonable legal fees, related to your breach of these Terms of Use and User Agreement."
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/text13"/>
+
+                    <TextView
+                        android:id="@+id/text15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intellectual_property"
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/text14"/>
+
+                    <TextView
+                        android:id="@+id/text16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Both parties agree that all intellectual property rights and database rights, whether registered or unregistered, in the store, information content on the store and all the store design, including, but not limited to, text, graphics, software, photos, video, music, sound and their selection and arrangement, and all software compilations, underlying source code and software shall remain at all times vested in us or our licensors. Use of such material will only be permitted as expressly authorized by us or our licensors.
+Any unauthorized use of the material and content of this store is strictly prohibited and you agree not to, copy, reproduce, transmit, publish, display, distribute, commercially exploit or creat derivative works of such material and content."
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/text15"/>
+
+                    <TextView
+                        android:id="@+id/text17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="APPLICABLE LAW AND JURISDICTION
+
+These Terms and Conditions of Use shall be interpreted and governed by the laws in force in the Federal Republic of Nigeria. Subject to the Arbitration section below, each party hereby agrees to submit to the jurisdiction of the courts of Nigeria and to waive any objections based upon venue.
+
+
+ARBITRATION
+
+Any controversy, claim or dispute arising out of or relating to these Terms and Conditions of Use will be referred to and finally settled by private and confidential binding arbitration before a single arbitrator held in Nigeria in English and governed by Nigeria law pursuant to the Arbitration and conciliation Act Cap A18 Laws of the Federal Republic of Nigeria 2004, as amended, replaced or re-enacted from time to time.
+The arbitrator shall be a person who is legally trained and who has experience in the information technology field in Nigeria and is independent of either party. Notwithstanding the foregoing, the store reserves the right to pursue the protection of intellectual property rights and confidential information through injunctive or other equitable relief through the courts.
+
+TERMINATION
+
+In addition to any legal or equitable remedies, we may, without prior notice to you, immediately terminate the Terms and Conditions of Use or revoke any or all of your rights granted under the Terms and Conditions of Use.
+Upon any termination of this Agreement, you shall immediately cease all access to and use of the store and we shall, in addition to any other legal or equitable remedies, immediately revoke all password(s) and account identification issued to you and deny your access to and use of this store in whole or in part. Any termination of this Agreement shall not affect the respective rights and obligations (including without limitation, payment obligations) of the parties arising before the date of termination. You furthermore agree that the site shall not be liable to you or any other person as a result of any such suspension or termination.
+If you are dissatisfied with the store or with any terms, conditions, rules, policies, guidelines, or practices of the operation of the store, your sole and exclusive remedy is to discontinue using the store.
+
+
+SEVERABILITY
+
+If any portion of these Terms and Conditions is held by any court or tribunal to be invalid or unenforceable, either in whole or in part, then that part shall be severed from these Terms and Conditions of Use and shall not affect the validity or enforceability of any other section listed in this document.
+
+
+MISCELLANUOUS PROVISIONS
+
+You agree that all agreements, notices, disclosures, and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing.
+Assigning or sub-contracting any rights or obligations under these Terms and Conditions of Use to any third party is prohibited unless agreed upon in writing by the store. We reserve the right to transfer, assign, or sub-contract the benefit of the whole or part of any rights or obligations under these Terms and Conditions of Use to any third party.
+
+
+TERMS AND CONDITIONS OF SALE
+
+GENERAL
+
+You confirm that you are at least 18 years of age or are accessing the site under supervision of a parent or legal guardian. You agree that if you are unsure of the meaning of any part of the Terms and Conditions of Sale, you will not hesitate to connect us for clarification prior to making a purchase.
+These Terms and Conditions of Sale fully govern the sale of goods and services purchased on this store. No extrinsic evidence, whether oral or written, will be incorporated.
+
+
+FORMATION OF CONTRACT
+
+Both parties agree that browsing the website and gathering information regarding the services provided by the store does not constitute an offer to sell, but merely an invitation to treat. The parties accept that an offer is only made once you have selected the item you intend to purchase, chosen your preferred payment method, proceeded to checkout and completed the checkout process.
+Both parties agree that the acceptance of the offer is not made when the store contacts you through phone, email or any media to confirm that the order has been placed online. Your offer is only accepted when we dispatch the product to you and inform you either by email or by phone or any media of the dispatch of your ordered product. Before your order is confirmed, you may be asked to provide additional verifications or information, including but not limited to phone number address, before we accept the order. Please note that there are cases when an order cannot be processed for various reasons. The store reserves the right to refuse or cancel any order for any reason at any given time.
+
+
+ACCEPTANCE OF ELECTRONIC DOCUMENTS
+
+You agree that all agreements, notices, disclosures, and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing.
+
+
+PAYMENT AND PRICING
+
+We are determined to provide the most accurate pricing information on the store to our users; however, errors may still occur, such as cases when the price of an item is not displayed correctly on the store. As such, we reserve the right to refuse or cancel any order. In the event that an item is mispriced, we may, at our discretion, either contact you for instructions or cancel your order and notify you of such cancellation.
+We shall have the right to refuse or cancel any such orders whether or not the order has been confirmed and your credit/debit card charged. In the event that we are unable to provide the services, we will inform you of this as soon as possible. A full refund will be given where you have already paid for the products. Checkout our payments methods.
+
+
+USE OF VOUCHER AND COUPON CODES
+
+Our store accepts the use of voucher/coupon codes for orders placed online. The marketing voucher/coupon codes which are accepted on our store entitle you at the time of ordering a product to a saving on the order being placed in on our store. Vouchers and Coupon s may also be issued to customers in exchange for advance payments made to us via transfer or card payment to our Bank accounts for products intended to be purchased on the store.
+Our voucher/coupon codes may not be exchanged for cash. With the exception of vouchers/coupon issued in accordance with our refunds policy and vouchers/coupons issued in exchange for advance payments, we reserve the right to cancel or withdraw our voucher/coupon codes at any time.
+
+
+LIABILITY OF PARTIES ON OUR MARKETPLACE
+
+The products or items listed or sold on the store are not owned by us, neither are we involve in the actual creation or making or manufacturing processes of the item for the buyers on Buildul.com
+The buyer and merchant agree that we would be held free from any liability in contract, pre-contract or other representations in tort, for all transactions conducted on the store.
+
+
+
+DELIVERY
+
+This store is only for delivery of products to customers within Nigeria. Serving as a “middle man”, we make effort by creating the platform to showcase Dealers’ products, customer see and order and we then deliver the item within the estimated timescales set out on our store; however delays are occasionally inevitable due to unforeseen factors. We shall be under no liability for any delay or failure to deliver the products within the estimated timescales where they did not occur due to our fault or negligence.
+					You agree not to hold the store liable for any delay or failure to deliver products or otherwise perform any obligation as specified in these Terms and Conditions of Sale if the same is wholly or partly caused whether directly or indirectly by circumstances beyond our reasonable control.
+
+
+INDEMNITY
+
+You agree to indemnify and hold us, our affiliates, officers, directors, agents and/or employees, as the case may be, free from any claim or demand, including reasonable legal fees, related to your breach of these Terms and Conditions of Sale.
+
+
+APPLICABLE LAW AND JURISDICTION
+
+These Terms and Conditions of Sale shall be interpreted and governed by the laws in force in the Federal Republic of Nigeria. Subject to the Arbitration section below, each party hereby agrees to submit to the jurisdiction of the courts of Nigeria and to waive any objections based upon venue.
+
+
+ARBITRATION
+
+Any controversy, claim or dispute arising out of or relating to these Terms and Conditions of Sale will be referred to and finally settled by private and confidential binding arbitration before a single arbitrator held in Nigeria in English and governed by Nigeria law pursuant to the Arbitration and conciliation Act Cap A18 Laws of the Federal Republic of Nigeria 2004, as amended, replaced or re-enacted from time to time.
+The arbitrator shall be a person who is legally trained and who has experience in the information technology field in Nigeria and is independent of either party. Notwithstanding the foregoing, the store reserves the right to pursue the protection of intellectual property rights and confidential information through injunctive or other equitable relief through the courts.
+
+
+SEVERABILITY
+
+If any portion of these Terms and Conditions of Sale is held by any court or tribunal to be invalid or unenforceable, either in whole or in part, then that part shall be severed from these Terms and Conditions of Sale and shall not affect the validity or enforceability of any other section listed in this document.
+
+
+MISCELLANUOUS PROVISIONS
+You agree that all agreements, notices, disclosures, and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing.
+Assigning or sub-contracting any rights or obligations under these Terms and Conditions of Use to any third party is prohibited unless agreed upon in writing by the store. We reserve the right to transfer, assign, or sub-contract the benefit of the whole or part of any rights or obligations under these Terms and Conditions of Sale to any third party.
+
+
+NOTICE OF COPYRIGHT INFRIGEMENT
+
+Where you believe that your intellectual property has been infringed upon on our store, please notify us by email it to (insert physical address and email address for copyright complaints). We expeditiously respond to all concerns regarding copyright infringements. We request that you provide the following information along with your complaint:
+
+
+A physical or electronic signature of the person authorized to act on behalf of the owner of the copyrighted work for the purposes of the complaint
+
+A proper description of the copyrighted work claimed to have been infringed.
+
+A description of the location of the infringing material on our store
+
+A statement made by the complaining party that he or she has a good-faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent or by law.
+
+A statement deposed of under oath, that the information in the notice of copyright infringement is accurate, and that the complaining party is authorized to act on behalf of the copyright owner. Please note that this procedure is exclusively for notifying Buildul.com that your copyrighted material has been infringed. "
+                        android:layout_margin="10dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@id/text16"/>
+
+
+                </RelativeLayout>
+            </ScrollView>
+        </android.support.v7.widget.CardView>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

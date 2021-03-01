@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyFavorites">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nested"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_order"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/favorite_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="IBETO CEMENT"
+                        android:typeface="sans"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:autoSizeMinTextSize="10dp"
+                        android:autoSizeMaxTextSize="10dp"
+                        android:layout_marginTop="1dp"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_favorite_black_24dp"
+                        android:layout_below="@+id/favorite_item"
+                        android:background="#fff"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"/>
+                    <Button
+                        android:id="@+id/buy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:hint="Buy"
+                        android:textColorHint="#fff"
+                        android:background="@drawable/button_round"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:drawablePadding="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/card_order"
+                android:layout_marginTop="10dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/favorite"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Whoops! There seems to be a problem connecting to the server. Try Checking your internet connection and try again"
+                       android:typeface="sans"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"/>
+                    <Button
+                        android:id="@+id/service"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:text="Refresh Page"
+                        android:textColor="#fff"
+                        android:background="@drawable/button_round"
+                        android:layout_centerInParent="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/favorite"
+                        android:layout_marginTop="10dp"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
